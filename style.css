@@ -1,0 +1,15 @@
+body{
+	min-width: 300px;
+}
+form{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+input{
+	max-width: 200px;
+	margin: 10px 5px;
+}
+
