@@ -6,7 +6,7 @@ function calculatePopulation(){
 
 
   $.ajax({
-    url: `http://api.population.io:80/1.0/population/${year}/${country}/${age}/`,
+    url: `https://api.population.io:80/1.0/population/${year}/${country}/${age}/`,
     success: function (data) {
 
       console.log(data);
@@ -54,7 +54,7 @@ function calculatePopulation(){
 
     error: function (err) {
       console.log(err);
-      alert(err.responseJSON.countries);
+     
     }
   })
   return false;
